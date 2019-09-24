@@ -1,6 +1,6 @@
 <?php
 
-function GetRandomHex($amount=100,$range=[100000000,200000000],$filter=true)
+function GetRandomHex($amount=100,$range=[100000000,200000000],$filter=false)
 {
     $h=[];
     $i=0;
